@@ -10,7 +10,7 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 10px;
-    margin-left: 12.5%;
+    margin-left: 12%;
     display: inline;
 }
 
@@ -52,7 +52,7 @@ p {
 nav {
     display: block;
     float: right;
-    padding-right: 12.5%;
+    padding-right: 12%;
     padding-top: 12px;
 }
 
@@ -74,6 +74,35 @@ label {
     padding-top: 10px;
 }
 
+img {
+    float:left;
+    width:150px;
+    height:150px;
+}
+
+.text-block {
+    position: absolute;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    width: 275px;
+    padding-top: 10px;
+    margin: 105px 30px 15px 30px;
+}
+
+.portfolio_img {
+    width: 275px;
+    height: 150px;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.thumbnail {
+    float: left;
+}
+
 .main_content {
     background-color: #ffffff;
     width: 960px;
@@ -83,6 +112,10 @@ label {
     resize: vertical;
     overflow: visible;
     text-align: center;
+}
+
+#port-main {
+    height: 650px;
 }
 
 #footer {
