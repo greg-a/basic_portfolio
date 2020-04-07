@@ -137,7 +137,7 @@ textarea {
 }
 
 #submit:hover {
-    outline: #2b6360 solid 1px;
+    outline: #2e6b5c solid 1px;
     cursor: pointer;
 }
 
@@ -168,9 +168,15 @@ textarea {
     line-height: 175%;
 }
 
+.thumbnail:hover {
+    text-decoration: underline;    
+    opacity: 0.7;
+    
+}
+
 .thumbnail a:hover {
+    cursor: pointer;
     text-decoration: underline;
-    font-style: italic;
 }
 
 #profile {
