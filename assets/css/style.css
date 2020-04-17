@@ -162,10 +162,10 @@ textarea {
 }
 
 .bio {
-    float: left;
     margin: 0px;
-    text-align: left;
     line-height: 175%;
+    padding: 0 15px;
+    text-align: left;
 }
 
 .thumbnail:hover {
@@ -181,6 +181,7 @@ textarea {
 
 #profile {
     margin-top: 5px;
+    padding-bottom: 5px;
 }
 
 #heading {
